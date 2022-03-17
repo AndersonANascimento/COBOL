@@ -1,7 +1,7 @@
       *************************
        IDENTIFICATION DIVISION.
       *************************
-       PROGRAM-ID. testfunc.
+       PROGRAM-ID. TESTFUNC.
        AUTHOR. ANDERSON ABREU.
        DATE-WRITTEN.  16/03/2022.
        DATE-COMPILED. 
@@ -16,34 +16,32 @@
        FILE SECTION.
 
        WORKING-STORAGE SECTION.
-       01  800-WHEN-COMPILED.
-           05  800-COMPILED-DATE-YYYY          PIC X(04) VALUE SPACES.
-           05  800-COMPILED-DATE-MM            PIC X(02) VALUE SPACES.
-           05  800-COMPILED-DATE-DD            PIC X(02) VALUE SPACES.
-           05  800-COMPILED-TIME-HH            PIC X(02) VALUE SPACES.
-           05  800-COMPILED-TIME-MM            PIC X(02) VALUE SPACES.
-           05  800-COMPILED-TIME-SS            PIC X(02) VALUE SPACES.
-           05  FILLER                          PIC X(07) VALUE SPACES.
-
-       01  800-CURRENT-DATE.     
-           05  800-CURRENT-DATE-YYYY           PIC X(04) VALUE SPACES.
-           05  800-CURRENT-DATE-MM             PIC X(02) VALUE SPACES.
-           05  800-CURRENT-DATE-DD             PIC X(02) VALUE SPACES.
-           05  800-CURRENT-TIME-HH             PIC X(02) VALUE SPACES.
-           05  800-CURRENT-TIME-MM             PIC X(02) VALUE SPACES.
-           05  800-CURRENT-TIME-SS             PIC X(02) VALUE SPACES.
-           05  FILLER                          PIC X(07) VALUE SPACES.
-
-       01  WS-DATA-ATUAL.
-           05 WS-DT-ATUAL                      PIC X(21) VALUE SPACES.
-           05 WS-DT-ATUAL-R REDEFINES WS-DT-ATUAL.
-              10  WS-DT-AA                     PIC X(04).
-              10  WS-DT-MM                     PIC X(02).
-              10  WS-DT-DD                     PIC X(02).
-              10  WS-TM-HH                     PIC X(02).
-              10  WS-TM-MM                     PIC X(02).
-              10  WS-TM-SS                     PIC X(02).
-              10  FILLER                       PIC X(07).
+       01 800-WHEN-COMPILED.
+          05 800-COMPILED-DATE-YYYY            PIC X(04) VALUE SPACES.
+          05 800-COMPILED-DATE-MM              PIC X(02) VALUE SPACES.
+          05 800-COMPILED-DATE-DD              PIC X(02) VALUE SPACES.
+          05 800-COMPILED-TIME-HH              PIC X(02) VALUE SPACES.
+          05 800-COMPILED-TIME-MM              PIC X(02) VALUE SPACES.
+          05 800-COMPILED-TIME-SS              PIC X(02) VALUE SPACES.
+          05 FILLER                            PIC X(07) VALUE SPACES.
+       01 800-CURRENT-DATE.       
+          05 800-CURRENT-DATE-YYYY             PIC X(04) VALUE SPACES.
+          05 800-CURRENT-DATE-MM               PIC X(02) VALUE SPACES.
+          05 800-CURRENT-DATE-DD               PIC X(02) VALUE SPACES.
+          05 800-CURRENT-TIME-HH               PIC X(02) VALUE SPACES.
+          05 800-CURRENT-TIME-MM               PIC X(02) VALUE SPACES.
+          05 800-CURRENT-TIME-SS               PIC X(02) VALUE SPACES.
+          05 FILLER                            PIC X(07) VALUE SPACES.
+       01 WS-DATA-ATUAL.  
+          05 WS-DT-ATUAL                       PIC X(21) VALUE SPACES.
+          05 WS-DT-ATUAL-R REDEFINES WS-DT-ATUAL.
+             10 WS-DT-AA                       PIC X(04).
+             10 WS-DT-MM                       PIC X(02).
+             10 WS-DT-DD                       PIC X(02).
+             10 WS-TM-HH                       PIC X(02).
+             10 WS-TM-MM                       PIC X(02).
+             10 WS-TM-SS                       PIC X(02).
+             10 FILLER                         PIC X(07).
        
       ********************
        PROCEDURE DIVISION.
@@ -81,3 +79,4 @@
 
            DISPLAY 'TESTFUNC Successfully Completed'.
            STOP RUN.
+       END PROGRAM TESTFUNC.
