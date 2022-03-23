@@ -1,11 +1,11 @@
       *****************************************************************
       * Program name:    PGEXE002                               
-      * Original author: ANDERSON ABREU DO NASCIMENTO                           
+      * Original author: ANDERSON ABREU DO NASCIMENTO
       *
       * Maintenence Log                                              
-      * Date      Author        Maintenance Requirement               
-      * --------- ------------  --------------------------------------- 
-      * 23/03/2022 ANDERSON ABREU DO NASCIMENTO  Created for COBOL class        
+      * Date       Author               Maintenance Requirement
+      * ---------- -------------------  -------------------------------
+      * 23/03/2022 ANDERSON NASCIMENTO  Created for COBOL class
       *                                                               
       *****************************************************************
        IDENTIFICATION DIVISION.
@@ -36,7 +36,7 @@
                05  WS-MEDIA          PIC 9(02)V99 VALUE ZEROS.
       *****************************************************************
        PROCEDURE DIVISION.
-      ******************************************************************
+      *****************************************************************
            DISPLAY "ESTE PROGRAMA VERIFICA A APROVAÇÃO DE UM ALUNO"
            
            DISPLAY "INFORME O NOME DO ALUNO: "
