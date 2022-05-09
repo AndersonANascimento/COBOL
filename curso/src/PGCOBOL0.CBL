@@ -1,18 +1,22 @@
-      *----------------------------------------------------------------*
+      *****************************************************************
+      * Program name:    PGCORRES                                      
+      * Original author: Anderson Nascimento                           
+      * Purpose: Apresentar a dinamica dos paragrafos                  
+      *                                                                
+      *****************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PGCOBOL0.
+         PROGRAM-ID. PGCOBOL0.
+      *
       *----------------------------------------------------------------*
        ENVIRONMENT DIVISION.
-       CONFIGURATION SECTION.
-       SPECIAL-NAMES.
+         CONFIGURATION SECTION.
+          SPECIAL-NAMES.
            DECIMAL-POINT IS COMMA.
-       INPUT-OUTPUT SECTION.
       *----------------------------------------------------------------*
        DATA DIVISION. 
-       FILE SECTION.
-       WORKING-STORAGE SECTION. 
-       77  WS-MOSTRA                           PIC X(20) VALUE SPACES.
-       LINKAGE SECTION.
+         FILE SECTION.
+          WORKING-STORAGE SECTION. 
+         77  WS-MOSTRA                         PIC X(20) VALUE SPACES.
       *----------------------------------------------------------------*
        PROCEDURE DIVISION.
       *-------------------------- 1ª Sessão ---------------------------*
