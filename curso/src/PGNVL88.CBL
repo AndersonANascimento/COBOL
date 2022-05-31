@@ -1,10 +1,10 @@
       *****************************************************************
-      * Program name:    PGNLV88                               
+      * Program name:    PGNVL88                               
       * Original author: Anderson Nascimento
       * Purpose: Apresentar usabilidade no nível 88
       *****************************************************************
        IDENTIFICATION DIVISION. 
-         PROGRAM-ID. PGNLV88.
+         PROGRAM-ID. PGNVL88.
          AUTHOR. Anderson Nascimento.
          DATE-WRITTEN. 03/05/2022.
          DATE-COMPILED. 03/05/2022.
@@ -84,4 +84,4 @@
            END-IF 
 
            STOP RUN.
-       END PROGRAM PGNLV88.
+       END PROGRAM PGNVL88.
