@@ -24,7 +24,7 @@
       *****************************************************************
        PROCEDURE DIVISION USING WS-VAR.
        MAIN-PROCEDURE.
-           DISPLAY "Programa de Cálculo Novo"
+           DISPLAY "Programa de Cálculo - PGCALC01"
            COMPUTE WS-RESULT = WS-N1 + WS-N2  
            EXIT.
        END PROGRAM PGCALC01.

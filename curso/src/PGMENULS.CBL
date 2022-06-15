@@ -23,6 +23,7 @@
       *****************************************************************
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
+           DISPLAY "Execução de PGMENULS"
            DISPLAY "PROGRAMA DE MENU".
 
            INITIALIZE WS-VAR 
